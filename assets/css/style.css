@@ -47,7 +47,7 @@ body {
   
   h2,
   h3 {
-    font-size: 22px;
+    font-size: px;
   }
   
   /* header */
@@ -56,7 +56,7 @@ body {
     position: fixed;
     z-index: 99;
     width: 100%;
-    margin: 0 0 30px;
+    top: 0px;
     overflow: auto;
     color: #fff;
     background: #fff;
@@ -108,6 +108,7 @@ body {
     background: #666;
     border-top: 8px solid #4aaaa5;
     height: 50px;
+    bottom: 0px;
   }
   
   h3, h2 {
@@ -122,6 +123,7 @@ body {
   #main-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
+    position: relative;
   }
   
   .main-section {
@@ -144,29 +146,20 @@ body {
     overflow: auto;
   }
   
-  .work:nth-child(even) {
-    margin-right: 40px;
-  }
+  
   
   .work img {
     width: 100%;
     border: 0 none;
     opacity: 0.8;
+    
+    
   }
   
-  .work h3 {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 0;
-    font-weight: 300;
-    line-height: 30px;
-    color: #fff;
-    text-align: center;
-    background: #4aaaa5;
-    border-bottom: 0;
-  }
+ .work {
+   margin: 10px;
+   border-style: solid;
+ }
   
   .auth-image {
     float: left;
@@ -214,6 +207,17 @@ body {
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
+  }
+  
+  p {
+    
+    position: absolute;
+    bottom: 25px;
+    width: 274px;
+    background-color: black;
+    opacity: .7;
+    color: white;
+    text-align: center;
   }
 @media only screen and (max-width: 980px) {
   body {
