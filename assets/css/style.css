@@ -66,7 +66,7 @@ body {
   #logo {
     float: left;
     width: 250px;
-    height: 90px;
+    height: 95px;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
     font-weight: 700;
@@ -109,6 +109,7 @@ body {
     border-top: 8px solid #4aaaa5;
     height: 50px;
     bottom: 0px;
+    
   }
   
   h3, h2 {
@@ -121,21 +122,25 @@ body {
   /* main */
   
   #main-container {
-    padding-top: 130px;
-    min-height: calc(100vh - 70px);
+    padding-top: 25px;
+    min-height: calc(75vh - 15px);
     position: relative;
   }
   
   .main-section {
     float: left;
     width: 100%;
-    max-width: 960px;
+    max-width: 940px;
     padding: 30px;
     margin: 0 0 40px;
     background: #fff;
     border: 1px solid #ddd;
   }
-  
+  .split {
+    
+    padding-left: 10px;
+    
+  }
   /* portfolio page */
   
   .work {
@@ -169,6 +174,12 @@ body {
     margin-right: 25px;
   }
   
+  .jumbotron jumbotron-fluid {
+    top: 0px;
+    right: 0px;
+    width: 150px;
+    height: 400px;
+  }
   /* contact page */
   
   #contact-form ul {
@@ -366,5 +377,4 @@ body {
     padding-left: 225px;
   }
 }
-  
   
